@@ -1,7 +1,7 @@
 {
   "name": "joppuyo/searchwp-seo-framework-search-exclude",
   "type": "wordpress-plugin",
-  "license": "GPLv2",
+  "license": "GPL-2.0-or-later",
   "description": "Integrates SearchWP with SEO Framework \"Exclude this post from local search\" feature",
   "authors": [
     {
