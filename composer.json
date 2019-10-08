@@ -1,0 +1,21 @@
+{
+  "name": "joppuyo/searchwp-seo-framework-search-exclude",
+  "type": "wordpress-plugin",
+  "license": "GPLv2",
+  "description": "Integrates SearchWP with SEO Framework \"Exclude this post from local search\" feature",
+  "authors": [
+    {
+      "name": "Johannes Siipola"
+    },
+    {
+      "name": "Jon Christopher"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "composer/installers": "~1.0"
+  }
+}
