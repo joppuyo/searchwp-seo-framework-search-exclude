@@ -3,7 +3,7 @@
  * Plugin name: SearchWP SEO Framework Exclude from Local Search
  * Description: Integrates SearchWP with SEO Framework "Exclude this post from local search" feature
  * Author: Johannes Siipola, Jon Christopher
- * Version: 1.0.0
+ * Version: 1.1.0
  */
 
 function searchwp_seo_framework_integration($ids)
@@ -30,5 +30,9 @@ function searchwp_seo_framework_integration($ids)
     return $ids;
 }
 
+// SearchWP 3
 add_filter('searchwp_prevent_indexing', 'searchwp_seo_framework_integration');
 add_filter('searchwp_exclude', 'searchwp_seo_framework_integration');
+
+// SearchWP 4
+add_filter('searchwp\post__not_in', 'searchwp_seo_framework_integration');
